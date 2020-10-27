@@ -1,0 +1,30 @@
+.souscription-text-block {
+    border : 1px solid pink; 
+    color:#fff; 
+    width: 100%;
+    text-align: center;
+    margin-top: 5em; 
+    padding: 75px; 
+}
+
+.souscription-title {
+    font-size: 5em;
+    
+} 
+@media screen and (min-width: 950px) and (max-width: 1359px){
+    .souscription-title{
+        font-size: 3.5em; 
+        max-width: 80%; 
+        margin: 0 auto; 
+    }
+}
+
+
+
+.souscription-slogan {
+
+} 
+
+.souscription-text{
+
+}

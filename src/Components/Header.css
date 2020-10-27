@@ -1,0 +1,6 @@
+.box-header {
+    border : 1px solid green; 
+    height: 50px;
+    min-width: 300px; 
+    max-width: 1920px; 
+}

@@ -1,4 +1,36 @@
 .submit-button {
-    border : 1px solid blue; 
     color: #fff;
+    background-color : #e50914;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 0; 
+    padding: 0; 
+    font-weight: 300; 
+    letter-spacing: 1px; 
+    border-radius: 4px; 
+}
+
+@media screen and (min-width: 1450px){
+    .submit-button {
+        width: 285px; 
+        font-size: 1.9rem; 
+        font-weight: 300; 
+        letter-spacing: 1px; 
+    }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1449px) {
+    .submit-button {
+        width: 250px;  
+        font-size: 1.6em; 
+    }
+}
+
+@media screen and (max-width: 949px){
+    .submit-button{
+        width: 155px; 
+        height: 40px; 
+        margin: auto ; 
+    }
 }

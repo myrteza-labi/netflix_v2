@@ -13,7 +13,6 @@ class SouscriptionBox extends React.Component {
                 <div className='row justify-content-center'>
                     <SubmitBar/>
                 </div>
-                
             </div>
         )
     }

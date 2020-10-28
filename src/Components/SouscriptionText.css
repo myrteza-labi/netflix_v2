@@ -4,27 +4,39 @@
     width: 100%;
     text-align: center;
     margin-top: 5em; 
-    padding: 75px; 
 }
-
+.souscription-slogan {
+    font-weight: 100;
+    letter-spacing: 1px;
+}
 .souscription-title {
     font-size: 5em;
-    
+    width: 100%;
 } 
+.souscription-text {
+    font-weight: 100; 
+    letter-spacing: 1px; 
+}
+
+
 @media screen and (min-width: 950px) and (max-width: 1359px){
     .souscription-title{
         font-size: 3.5em; 
-        max-width: 80%; 
-        margin: 0 auto; 
     }
 }
 
-
-
-.souscription-slogan {
-
-} 
-
-.souscription-text{
-
+@media screen and (min-width: 600px) and (max-width: 949px){
+    .souscription-title{
+        font-size: 3.5em; 
+    }
 }
+
+@media screen and (max-width: 599px){
+    .souscription-title{
+        font-size: 2em;  
+    }
+    .souscription-slogan{
+        font-size: 1.2em; 
+    }
+}
+

@@ -7,11 +7,11 @@ import './SubmitBar.css'
 class SubmitBar extends React.Component {
     render(){
         return (
-            <div className='col-7 submitBar'>
-                <div className='row'>
+            <div className='submit-bar'>
+                
                     <EmailInput/>
                     <SubmitButton/>
-                </div>
+                
             </div>
         )
     }

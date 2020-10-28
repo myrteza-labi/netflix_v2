@@ -8,7 +8,6 @@ class SouscriptionContainer extends React.Component {
     render(){
         return (
             <div className='container-fluid souscription-container'>
-                Souscription Container
                 <Header/>
                 <SouscriptionBox/>
                 <div className='shadow-souscription-box'></div>

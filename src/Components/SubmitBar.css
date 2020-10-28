@@ -1,4 +1,34 @@
-.submitBar {
+.submit-bar {
     border : 1px solid yellow; 
     color: #fff; 
+    display: flex; 
+    flex-direction: row;
+    margin: 0; 
+    padding: 0; 
 }
+
+@media screen and (min-width: 1450px){
+    .submit-bar {
+        height: 70px; 
+    }
+}
+@media screen and (min-width: 950px) and (max-width: 1449px){
+    .submit-bar {
+        height: 60px; 
+    }
+}
+@media screen and (max-width: 740px){
+    .submit-bar {
+        flex-direction: column; 
+    }
+}
+
+@media screen and (min-width: 740px) and (max-width: 949px){
+    .submit-bar {
+        flex-direction: column; 
+        height: 215px; 
+        min-width: 660px; 
+    }
+}
+
+

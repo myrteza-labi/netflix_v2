@@ -2,4 +2,17 @@
     border : 1px solid brown; 
     max-width: 1920px; 
     width: 950px; 
+    min-width: 260px; 
+}
+
+@media screen and (max-width:690px){
+    .souscriptionBox {
+        width: 95%;
+    }
+}
+
+@media screen and (min-width:691px){
+    .souscriptionBox {
+        width: 80%;
+    }
 }

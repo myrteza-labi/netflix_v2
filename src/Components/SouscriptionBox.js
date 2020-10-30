@@ -6,7 +6,7 @@ import './SouscriptionBox.css';
 class SouscriptionBox extends React.Component {
     render(){
         return (
-            <div className='container-fluid souscriptionBox'>
+            <div className='container-fluid souscription-box'>
                 <div className='row justify-content-center'>
                     <SouscriptionText/>    
                 </div>
